@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from apps.views import MainView, ComponentsView, activateEmail, activate
+from apps.views import MainView
 from root.settings import MEDIA_URL, MEDIA_ROOT
 from django.conf.urls.static import static
 

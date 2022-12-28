@@ -37,9 +37,6 @@
             <li class="item">
                 <a class="link" href="#contact">Contact</a>
             </li>
-            {#            <li class="item ml-md-3">#}
-            {#                <a href="{% url 'components' %}" class="btn btn-primary">Components</a>#}
-            {#            </li>#}
         </ul>
         <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
             <div class="hamburger-box">
@@ -78,7 +75,6 @@
                 <h2 class="section-title mb-3">About Me</h2>
                 <p>{{ user.bio }}
                 </p>
-                {#                <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>#}
             </div>
         </div><!-- end of about wrapper -->
     </div><!-- end of container -->
@@ -137,84 +133,6 @@
     </div><!-- end of container -->
 </section> <!-- end of portfolio section -->
 
-<!-- pricing section -->
-{#    <section class="section" id="pricing">#}
-{#        <div class="container text-center">#}
-{#            <p class="section-subtitle">How Much I Charge ?</p>#}
-{#            <h6 class="section-title mb-6">My Pricing</h6>#}
-{#            <!-- row -->#}
-{#            <div class="pricing-wrapper">#}
-{#                <div class="pricing-card">#}
-{#                    <div class="pricing-card-header">#}
-{#                        <img class="pricing-card-icon" src="{% static "assets/imgs/scooter.svg" %}"#}
-{#                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">#}
-{#                    </div>#}
-{#                    <div class="pricing-card-body">#}
-{#                        <h6 class="pricing-card-title">Free</h6>#}
-{#                        <div class="pricing-card-list">#}
-{#                            <p>accusamus reprehenderit</p>#}
-{#                            <p>provident dolorem </p>#}
-{#                            <p>quos neque</p>#}
-{#                            <p>fugiat quibusdam</p>#}
-{#                            <p><i class="ti-close"></i></p>#}
-{#                            <p><i class="ti-close"></i></p>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="pricing-card-footer">#}
-{#                        <span>$</span>#}
-{#                        <span>0.00/Month</span>#}
-{#                    </div>#}
-{#                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>#}
-{#                </div>#}
-{#                <div class="pricing-card">#}
-{#                    <div class="pricing-card-header">#}
-{#                        <img class="pricing-card-icon" src="{% static "assets/imgs/shipped.svg" %}"#}
-{#                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">#}
-{#                    </div>#}
-{#                    <div class="pricing-card-body">#}
-{#                        <h6 class="pricing-card-title">Basic</h6>#}
-{#                        <div class="pricing-card-list">#}
-{#                            <p>accusamus reprehenderit</p>#}
-{#                            <p>provident dolorem </p>#}
-{#                            <p>quos neque</p>#}
-{#                            <p>fugiat quibusdam</p>#}
-{#                            <p>accusamus laboriosam</p>#}
-{#                            <p><i class="ti-close"></i></p>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="pricing-card-footer">#}
-{#                        <span>$</span>#}
-{#                        <span>9.99/Month</span>#}
-{#                    </div>#}
-{#                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>#}
-{#                </div>#}
-{#                <div class="pricing-card">#}
-{#                    <div class="pricing-card-header">#}
-{#                        <img class="pricing-card-icon" src="{% static "assets/imgs/startup.svg" %}"#}
-{#                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">#}
-{#                    </div>#}
-{#                    <div class="pricing-card-body">#}
-{#                        <h6 class="pricing-card-title">Premium</h6>#}
-{#                        <div class="pricing-card-list">#}
-{#                            <p>accusamus reprehenderit</p>#}
-{#                            <p>provident dolorem </p>#}
-{#                            <p>quos neque</p>#}
-{#                            <p>fugiat quibusdam</p>#}
-{#                            <p>accusamus laboriosam</p>#}
-{#                            <p>inventore omnis</p>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="pricing-card-footer">#}
-{#                        <span>$</span>#}
-{#                        <span>99.9/Month</span>#}
-{#                    </div>#}
-{#                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>#}
-{#                </div>#}
-{##}
-{#            </div><!-- end of pricing wrapper -->#}
-{#        </div> <!-- end of container -->#}
-{#    </section><!-- end of pricing section -->#}
-
 <!-- section -->
 <section class="section-sm bg-primary">
     <!-- container -->
@@ -259,69 +177,6 @@
         </div>
     </div> <!-- end of container -->
 </section> <!-- end of testimonial section -->
-
-<!-- blog section -->
-{#    <section class="section" id="blog">#}
-{#        <!-- container -->#}
-{#        <div class="container text-center">#}
-{#            <p class="section-subtitle">Recent Posts?</p>#}
-{#            <h6 class="section-title mb-6">Blog</h6>#}
-{#            <!-- blog-wrapper -->#}
-{#            <div class="blog-card">#}
-{#                <div class="blog-card-header">#}
-{#                    <img src="{% static "assets/imgs/img-1.jpg" %}" class="blog-card-img"#}
-{#                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">#}
-{#                </div>#}
-{#                <div class="blog-card-body">#}
-{#                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>#}
-{##}
-{#                        <p class="blog-card-caption">#}
-{#                            <a href="#">By: Admin</a>#}
-{#                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>#}
-{#                            <a href="#"><i class="ti-comment"></i> 123</a>#}
-{#                        </p>#}
-{#                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit#}
-{#                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium#}
-{#                            neque numquam mollitia modi quasi distinctio.</p>#}
-{##}
-{#                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>#}
-{#                        </p>#}
-{#                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis#}
-{#                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>#}
-{##}
-{#                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>#}
-{#                </div>#}
-{#            </div><!-- end of blog wrapper -->#}
-{##}
-{#            <!-- blog-wrapper -->#}
-{#            <div class="blog-card">#}
-{#                <div class="blog-card-header">#}
-{#                    <img src="{% static "assets/imgs/img-2.jpg" %}" class="blog-card-img"#}
-{#                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">#}
-{#                </div>#}
-{#                <div class="blog-card-body">#}
-{#                    <h5 class="blog-card-title">Explicabo illo</h6>#}
-{##}
-{#                        <p class="blog-card-caption">#}
-{#                            <a href="#">By: Admin</a>#}
-{#                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>#}
-{#                            <a href="#"><i class="ti-comment"></i> 264</a>#}
-{#                        </p>#}
-{##}
-{#                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,#}
-{#                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro#}
-{#                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto#}
-{#                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?#}
-{#                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non#}
-{#                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus#}
-{#                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>#}
-{##}
-{#                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>#}
-{#                </div>#}
-{#            </div><!-- end of blog wrapper -->#}
-{##}
-{#        </div><!-- end of container -->#}
-{#    </section><!-- end of blog section -->#}
 
 <!-- contact section -->
 <section class="section" id="contact">
